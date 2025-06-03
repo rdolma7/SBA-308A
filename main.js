@@ -1,10 +1,19 @@
 let body = document.querySelector("body");
+const h1=document.createElement("h1");
+h1.textContent="Currency Exchange Application"
+body.appendChild(h1)
+
+
 const input = document.createElement("input");
 input.setAttribute("id", "initialValue");
 input.type = "text";
 input.placeholder = "From";
 body.appendChild(input);
 
+
+const btn=document.createElement("button");
+btn.textContent="Exchange Now";
+body.appendChild(btn)
 
 let url = `https://api.currencyfreaks.com/v2.0/supported-currencies?apikey=d39a9be0c13741d28839052a910cb9b7`;
 const API_KEY = "d39a9be0c13741d28839052a910cb9b7";
