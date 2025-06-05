@@ -1,11 +1,30 @@
-body{
-    background-color: bisque;
-    border: 1px solid black;
+body {
+  background-color: bisque;
+  border: 1px solid black;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("currency-exchange.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; 
+}
+button {
+  display: block;
+  margin-top: 15px;
+  font-size: 12pt;
+}
+/* img{
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    opacity: 0.15;
+} */
+ select {
+  width: 200px;
+  height: 20px;
+  font-size: medium;
 }
-button{
-    display:block;
-    margin-top: 15px;
-    font-size: 12pt;
+
+input{
+    width: 75px;
 }
