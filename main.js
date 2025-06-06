@@ -7,6 +7,7 @@ let convertTo = document.querySelector("#convertTo");
 let input = document.querySelector("input");
 let select = document.querySelector("select");
 const div2 = document.createElement("div");
+// import *as variable from "./variable.js"
 const btn = document.createElement("button");
 btn.textContent = "Enter";
 body.appendChild(btn);
