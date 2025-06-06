@@ -3,35 +3,46 @@ body {
   border: 1px solid black;
   width: 100vw;
   height: 100vh;
-}
-body::before {
-  position: fixed;
   background-image: url("currency-exchange.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  z-index: -1;
-  height: 100%;
-  width: 100%;
 }
+
 button {
-  display: block;
+  display: flex;
+  position:absolute;
+  left: 500px;
+  top: 180px;
   margin-top: 15px;
-  font-size: 12pt;
+  font-size: 25pt;
+  align-items: center;
 }
-/* img{
-    width: 100vw;
-    height: 100vh;
-    position: absolute;
-    opacity: 0.15;
-} */
+img {
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  /* image-rendering: crisp-edges; */
+}
 select {
   width: 200px;
-  height: 20px;
+  height: px;
   font-size: medium;
+   display: flex;
+  position:absolute;
+  left: 500px;
+  margin-top: 15px;
+  font-size: 15pt;
+  align-items: center;
 }
 
 input {
   width: 75px;
   margin-top: 25px;
+  
+}
+h1 {
+font-size: 35pt;
+color: whitesmoke;
+text-align: center;
 }

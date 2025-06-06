@@ -6,10 +6,11 @@ let convertFrom = document.querySelector("#convertFrom");
 let convertTo = document.querySelector("#convertTo");
 let input = document.querySelector("input");
 let select = document.querySelector("select");
-
+const div2 = document.createElement("div");
 const btn = document.createElement("button");
 btn.textContent = "Enter";
 body.appendChild(btn);
+div2.appendChild.btn;
 // const btn=document.getElementsByTagName("button")
 let div = document.createElement("div");
 div.id = "flagContainer";
@@ -29,7 +30,7 @@ btn.addEventListener("click", (event) => {
   }
 });
 
-body.appendChild(btn);
+// body.appendChild(btn);
 
 function delay(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -45,7 +46,7 @@ async function getCurrencies() {
       currency[1].countryCode !== null
   );
 
-  countryCurrencies = countryCurrencies.slice(0, 15);
+  countryCurrencies = countryCurrencies.slice(0, 100);
 
   let currenciesData = {};
   for (currency of countryCurrencies) {
