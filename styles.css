@@ -3,10 +3,16 @@ body {
   border: 1px solid black;
   width: 100vw;
   height: 100vh;
+}
+body::before {
+  position: fixed;
   background-image: url("currency-exchange.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: cover; 
+  background-size: cover;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
 }
 button {
   display: block;
@@ -19,13 +25,13 @@ button {
     position: absolute;
     opacity: 0.15;
 } */
- select {
+select {
   width: 200px;
   height: 20px;
   font-size: medium;
 }
 
-input{
-    width: 75px;
-    margin-top: 25px;
+input {
+  width: 75px;
+  margin-top: 25px;
 }
