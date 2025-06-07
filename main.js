@@ -68,7 +68,6 @@ async function setCurrencyOptions(currencyData) {
     // console.log(currency);
     // await delay(1000);
   }
-  // document.getElementById("convertTo").value ="MUR"
 }
 let allCurrencyData;
 
@@ -76,14 +75,3 @@ getCurrencies().then((result) => {
   allCurrencyData = result;
   setCurrencyOptions(result);
 });
-
-// async function showCountryIcon() {
-//   // let countryCurrencies = await getCurrencies();
-//   // let countryIcons ={};
-//   // for(currency of countryCurrencies){
-//   //   countryIcons[currency[0]]=currency[1].icon;
-// }
-// let countryIcons = countryCurrencies.m((currency) => {
-//   return [currency[0], currency[1].icon];
-// });
-// console.log(countryIcons);
